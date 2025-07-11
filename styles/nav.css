@@ -76,9 +76,16 @@ header{
 }
 .another-section{
     background-color: rgb(205, 205, 233);
-    border-radius: 10px;
+    border-radius: 50px;
     text-align: center;
     padding:30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 200px;
+}
+.item-title{
+    color: #4E47FF;
+    
 }
 
 .skills-container{
