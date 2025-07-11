@@ -97,7 +97,7 @@ header{
 }
 
 body {
-      margin: 0;
+      margin: 0px;
       font-family: Arial, sans-serif;
       background-color: #f6f8fe;
     }
@@ -108,19 +108,25 @@ body {
       justify-content: center;
       height: 100vh;
       padding: 20px;
+      font-weight: 800;
+    font-size: 45px;
     }
 
     .left {
       flex: 1;
-      font-size: 2.5rem;
+      font-size: 5rem;
       font-weight: bold;
       padding-right: 40px;
       color: #000;
+      margin-left: 150px;
     }
 
     .right {
       flex: 1;
       max-width: 400px;
+      margin-right: 150px;
+      font-size: 10rem;
+      font-weight: bold;
     }
 
     form {
@@ -199,4 +205,5 @@ body {
 
     .footer-nav a:hover {
       color: #4c4cff;
+      
     }
