@@ -84,12 +84,15 @@ header{
 .skills-container{
     display: flex;
     gap: 30px;
+    margin-left: 800px;
+    
 }
 
 .skills{
     box-shadow: wheat;
-    padding: 30px;
+    padding: 15px;
     border-radius: 5px;
+    
 }
 
 .sec-bg{
